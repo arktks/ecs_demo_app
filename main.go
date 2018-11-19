@@ -23,7 +23,7 @@ func main() {
 
 func healthHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("--- healthHandler")
-	fmt.Fprint(w, "OK")
+	fmt.Fprint(w, "OK Google")
 }
 
 func infoHandler(w http.ResponseWriter, r *http.Request) {
