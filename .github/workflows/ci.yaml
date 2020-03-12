@@ -1,6 +1,4 @@
-// 好きな名前
 name: golang_ci
-// フック
 on: [push]
 
 jobs:
